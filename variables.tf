@@ -1,21 +1,13 @@
 variable "region" {
-  default = "us-east-1"
+  default = "eu-west-2"
 }
 
 variable "instance_type" {
   default = "t2.micro"
 }
 
-variable "instance_ami" {
-  default = "ami-041feb57c611358bd"
-}
-
-
-variable "vpc_id" {
-  default = ""
-}
 
 
 variable "key_name" {
-  default = "CBA_keypair"
+  default = "CBA Test"
 }
